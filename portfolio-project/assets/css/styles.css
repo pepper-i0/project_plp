@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1527769929977-c341ee9f2033?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    height: auto; /* Full viewport height */
+    color: #ffffff; /* Adjust text color for better contrast */
+}
+
+header {
+    background: rgba(53, 66, 74, 0.8); /* Semi-transparent background */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+a {
+    color: rgb(177, 177, 202); /* Change all hyperlink text color to black */
+    text-decoration: underline;
+}
+    
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Subtle blur effect */
+    -webkit-backdrop-filter: blur(5px); /* Safari */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #ffffff; /* Ensure text is readable */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(53, 66, 74, 0.8); /* Semi-transparent background */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
