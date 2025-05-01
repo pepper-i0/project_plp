@@ -1,3 +1,4 @@
+#Question 1
 try:
     with open("input.txt", "r")as myfile:
         content = myfile.read()
@@ -9,5 +10,7 @@ try:
 
     print("this file has been modified")
 
+
+#Question 2
 except FileNotFoundError:
     print("File not found. Please check the file name and try again.")
