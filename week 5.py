@@ -1,13 +1,13 @@
 #Question 1
-# class smartphone:
-#     make = 'iphone'
+class smartphone:
+    make = 'iphone'
 
-#     def call(self):
-#         print('calling...')
+    def call(self):
+        print('calling...')
 
-# my_phone = smartphone()
-# print(my_phone.make)
-# my_phone.call()
+my_phone = smartphone()
+print(my_phone.make)
+my_phone.call()
 
 #Question 2
 class person:
